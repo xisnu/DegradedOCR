@@ -5,7 +5,7 @@ import os,sys
 from PIL import Image
 
 #First
-def readMainH5(h5file,maxw,maxh,readamount,write_sequences=False):
+def readMainH5(h5file,maxw,maxh,readamount,write_sequences=False,binarize=False):
     #Reads a standard format h5 file and collects features, targets and sequence_lengths
     #maxw and maxh are maximum width(cols) and maximum height(rows) of all samples train+test+val
     f=h5py.File(h5file)
@@ -32,6 +32,8 @@ def readMainH5(h5file,maxw,maxh,readamount,write_sequences=False):
             #if(target_length>=2):
             all_sampleid.append(sampleid)
             features=np.asarray(sample.get("Image")) # H x W
+            if(binarize):
+                features=convert_to_binary(features)
             seq = len(features[0])
             #Test if feature sequence is sufficiently long CTC requirement
             #if((seq/8.0)>(target_length*2)):
@@ -129,6 +131,23 @@ def make_sparse_y(targets,char_int,max_target_length):
             values.append(sparse_val)
     return [indices,values,shape]
 
+def find_max_dims(hdfin):
+    f=h5py.File(hdfin)
+    keys=f.keys()
+    total=len(keys)
+    maxw=0
+    maxh=0
+    for t in range(total):
+        sample=f.get(keys[t])
+        data=np.asarray(sample.get('Image'))
+        w=data.shape[1]
+        h=data.shape[0]
+        if(w>maxw):
+            maxw=w
+        if(h>maxh):
+            maxh=h
+    return maxw,maxh
+
 
 #Adjust Sequence lengths after CNN and Pooling
 def adjustSequencelengths(seqlen,convstride,poolstride,maxtargetlength):
@@ -140,9 +159,14 @@ def adjustSequencelengths(seqlen,convstride,poolstride,maxtargetlength):
     return seqlen
 
 #Main
-def load_data(trainh5,testh5,batchsize,generate_char_table):
-    train_x, train_y, train_seq_lengths,train_sampleids=readMainH5(trainh5,2851,223,100,write_sequences=True)
-    test_x,test_y,test_seq_lengths,test_sampleids=readMainH5(testh5,2851,223,100)
+def load_data(trainh5,testh5,batchsize,readamount,generate_char_table):
+    train_maxw, train_maxh=find_max_dims(trainh5)
+    test_maxw, test_maxh = find_max_dims(testh5)
+    maxw=max(train_maxw,test_maxw)
+    maxh=max(train_maxh, test_maxh)
+    print("Maximum Image Dimesion %d %d"%(maxw,maxh))
+    train_x, train_y, train_seq_lengths,train_sampleids=readMainH5(trainh5,maxw,maxh,readamount,write_sequences=True,binarize=True)
+    test_x,test_y,test_seq_lengths,test_sampleids=readMainH5(testh5,maxw,maxh,readamount, binarize=True)
 
     sampleids=[train_sampleids,test_sampleids]
 
@@ -183,7 +207,7 @@ def load_data(trainh5,testh5,batchsize,generate_char_table):
     print(char_int)
 
     max_target_length=max(train_max_target_length,test_max_target_length)
-    max_seq_len=2851
+    max_seq_len=maxw
 
     nbtrain=len(train_y)
     nbtest=len(train_y)
@@ -208,7 +232,7 @@ def load_data(trainh5,testh5,batchsize,generate_char_table):
         start = end
     transcription_length=[train_transcription_length,test_trainscription_length]
 
-    return [train_x,test_x],nb_classes,[train_seq_lengths,test_seq_lengths],[y_train,y_test],max_target_length,max_seq_len,char_int,transcription_length,sampleids
+    return [train_x,test_x],nb_classes,[train_seq_lengths,test_seq_lengths],[y_train,y_test],max_target_length,max_seq_len, maxh,char_int,transcription_length,sampleids
 
 #Convert integer representation of string to unicode representation
 def int_to_bangla(intarray,char_int_file,dbfile):
@@ -359,6 +383,17 @@ def gather_offline_info(dir):
     max_height=max(heights)
     print("Max W=",max_width," Max H=",max_height)
 
+def convert_to_binary(image):
+    #image shoud have dim W x H
+    r=len(image)
+    c=len(image[0])
+    for i in range(r):
+        for j in range(c):
+            if(image[i][j]==255):
+                image[i][j]=1
+            else:
+                image[i][j]=0
+    return image
 '''
 dbfile="/media/parthosarothi/OHWR/Dataset/ICBOCR-D2/CompositeAndSingleCharacters.txt"
 dbfile2="/media/parthosarothi/OHWR/Dataset/Dict/bengalichardb.txt"

@@ -5,9 +5,10 @@ import time,sys
 
 class CNNBLSTM:
 
-    def __init__(self,max_timesteps,nb_features,nb_classes,modelname):
+    def __init__(self,maxw,maxh,nb_features,nb_classes,modelname):
         self.hybridmodel=tf.Graph()
-        self.max_timesteps=max_timesteps
+        self.max_timesteps=maxw
+        self.filterheight=maxh
         self.nb_features=nb_features
         self.nb_classes=nb_classes
         self.model_name=modelname
@@ -27,7 +28,6 @@ class CNNBLSTM:
             nw[info[0]] = info[1]
             line = f.readline()
         self.filterwidth=int(nw['filterwidth'])
-        self.filterheight = int(nw['filterheight'])
         self.nb_filters=[int(fi) for fi in nw['nb_filters'].split()]
         self.conv_stride = [int(fi) for fi in nw['conv_stride'].split()]
         self.pool_stride = [int(fi) for fi in nw['pool_stride'].split()]
@@ -323,8 +323,8 @@ def main(task,mode,dbfile,files,weightfile,batchsize):
     generate_char_table = True
     if (mode == "Load"):
         generate_char_table = False
-    [x_train, x_test], nb_classes, seqlen, [train_y,test_y], max_target_length, max_seq_length, char_int, transcription_length,sampleids = load_data(
-        files[0], files[1], batchsize, generate_char_table)
+    [x_train, x_test], nb_classes, seqlen, [train_y,test_y], max_target_length, max_seq_length, max_h, char_int, transcription_length,sampleids = load_data(
+        files[0], files[1], batchsize, 100,generate_char_table)
     nb_features = 1
     x = [x_train, x_test]
     y = [train_y, test_y]
@@ -333,7 +333,7 @@ def main(task,mode,dbfile,files,weightfile,batchsize):
     print(" Max Seq len=", max_seq_length, " Max Target length=", max_target_length)
     print("Number of classes (including blank)", nb_classes)
 
-    model = CNNBLSTM(max_seq_length, nb_features, nb_classes, "Hybrid")
+    model = CNNBLSTM(max_seq_length, max_h, nb_features, nb_classes, "Hybrid")
     model.createNetwork("Config")
 
     weightfile_last = weightfile + "/last"
@@ -350,12 +350,12 @@ def main(task,mode,dbfile,files,weightfile,batchsize):
 
 
 dbfile = "Dict/CompositeAndSingleCharacters.txt"
-charposfile="Dict//bengalichardb.txt"
-files = ["Data/train","Data/train"]
+charposfile="Dict/bengalichardb.txt"
+files = ["Data/Sample/train","Data/Sample/test"]
 weightfile = "Weights"
 batchsize = 16
 
-task="Train"
-mode="New"
+task="Train" # Use Predict for generating output, Train to train the network
+mode="New" # Use New for creating a network , Load to load previously trained weights
 
 main(task,mode,dbfile,files,weightfile,batchsize)
