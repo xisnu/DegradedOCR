@@ -1,0 +1,305 @@
+চ্ছ্ব,\u099a \u09cd \u099b \u09cd \u09ac ,5,cmp1
+জ্জ্ব,\u099c \u09cd \u099c \u09cd \u09ac ,5,cmp2
+ত্ত্ব,\u09a4 \u09cd \u09a4 \u09cd \u09ac ,5,cmp3
+ন্ট্র,\u09a8 \u09cd \u099f \u09cd \u09b0 ,5,cmp4
+ন্ত্র,\u09a8 \u09cd \u09a4 \u09cd \u09b0 ,5,cmp5
+ন্দ্ব,\u09a8 \u09cd \u09a6 \u09cd \u09ac ,5,cmp6
+ন্দ্র,\u09a8 \u09cd \u09a6 \u09cd \u09b0 ,5,cmp7
+ন্ধ্র,\u09a8 \u09cd \u09a7 \u09cd \u09b0 ,5,cmp8
+ম্প্র,\u09ae \u09cd \u09aa \u09cd \u09b0 ,5,cmp9
+ম্ভ্র,\u09ae \u09cd \u09ad \u09cd \u09b0 ,5,cmp10
+র্জ্জ,\u09b0 \u09cd \u099c \u09cd \u099c ,5,cmp11
+র্ব্ব,\u09b0 \u09cd \u09ac \u09cd \u09ac ,5,cmp12
+র্ভ্র,\u09b0 \u09cd \u09ad \u09cd \u09b0 ,5,cmp13
+র্ম্ম,\u09b0 \u09cd \u09ae \u09cd \u09ae ,5,cmp14
+ষ্ট্র,\u09b7 \u09cd \u099f \u09cd \u09b0 ,5,cmp15
+ষ্প্র,\u09b7 \u09cd \u09aa \u09cd \u09b0 ,5,cmp16
+স্ক্র,\u09b8 \u09cd \u0995 \u09cd \u09b0 ,5,cmp17
+স্ট্র,\u09b8 \u09cd \u099f \u09cd \u09b0 ,5,cmp18
+স্ত্র,\u09b8 \u09cd \u09a4 \u09cd \u09b0 ,5,cmp19
+ক্তৃ,\u0995 \u09cd \u09a4 \u09c3 ,4,cmp20
+ক্রু,\u0995 \u09cd \u09b0 \u09c1 ,4,cmp21
+ক্ষু,\u0995 \u09cd \u09b7 \u09c1 ,4,cmp22
+ঙ্কু,\u0999 \u09cd \u0995 \u09c1 ,4,cmp23
+ঙ্কৃ,\u0999 \u09cd \u0995 \u09c3 ,4,cmp24
+ঙ্মু,\u0999 \u09cd \u09ae \u09c1 ,4,cmp25
+চ্ছু,\u099a \u09cd \u099b \u09c1 ,4,cmp26
+ঞ্জু,\u099e \u09cd \u099c \u09c1 ,4,cmp27
+ণ্ডূ,\u09a3 \u09cd \u09a1 \u09c2 ,4,cmp28
+ত্তু,\u09a4 \u09cd \u09a4 \u09c1 ,4,cmp29
+ত্তৃ,\u09a4 \u09cd \u09a4 \u09c3 ,4,cmp30
+ত্রু,\u09a4 \u09cd \u09b0 \u09c1 ,4,cmp31
+দ্ধৃ,\u09a6 \u09cd \u09a7 \u09c3 ,4,cmp32
+দ্ভু,\u09a6 \u09cd \u09ad \u09c1 ,4,cmp33
+দ্ভূ,\u09a6 \u09cd \u09ad \u09c2 ,4,cmp34
+দ্যূ,\u09a6 \u09cd \u09af \u09c2 ,4,cmp35
+ন্তু,\u09a8 \u09cd \u09a4 \u09c1 ,4,cmp36
+ন্তূ,\u09a8 \u09cd \u09a4 \u09c2 ,4,cmp37
+ন্দু,\u09a8 \u09cd \u09a6 \u09c1 ,4,cmp38
+প্ল্,\u09aa \u09cd \u09b2 \u09cd ,4,cmp39
+ব্বু,\u09ac \u09cd \u09ac \u09c1 ,4,cmp40
+ম্বু,\u09ae \u09cd \u09ac \u09c1 ,4,cmp41
+ম্বূ,\u09ae \u09cd \u09ac \u09c2 ,4,cmp42
+ম্মু,\u09ae \u09cd \u09ae \u09c1 ,4,cmp43
+ম্মূ,\u09ae \u09cd \u09ae \u09c2 ,4,cmp44
+র্তৃ,\u09b0 \u09cd \u09a4 \u09c3 ,4,cmp45
+র্ভূ,\u09b0 \u09cd \u09ad \u09c2 ,4,cmp46
+র্মু,\u09b0 \u09cd \u09ae \u09c1 ,4,cmp47
+র্মূ,\u09b0 \u09cd \u09ae \u09c2 ,4,cmp48
+ল্লু,\u09b2 \u09cd \u09b2 \u09c1 ,4,cmp49
+ষ্কৃ,\u09b7 \u09cd \u0995 \u09c3 ,4,cmp50
+ষ্টু,\u09b7 \u09cd \u099f \u09c1 ,4,cmp51
+ষ্টৃ,\u09b7 \u09cd \u099f \u09c3 ,4,cmp52
+ষ্ণু,\u09b7 \u09cd \u09a3 \u09c1 ,4,cmp53
+স্টু,\u09b8 \u09cd \u099f \u09c1 ,4,cmp54
+স্তু,\u09b8 \u09cd \u09a4 \u09c1 ,4,cmp55
+স্তূ,\u09b8 \u09cd \u09a4 \u09c2 ,4,cmp56
+স্তৃ,\u09b8 \u09cd \u09a4 \u09c3 ,4,cmp57
+স্থূ,\u09b8 \u09cd \u09a5 \u09c2 ,4,cmp58
+স্পৃ,\u09b8 \u09cd \u09aa \u09c3 ,4,cmp59
+স্ফু,\u09b8 \u09cd \u09ab \u09c1 ,4,cmp60
+স্ফূ,\u09b8 \u09cd \u09ab \u09c2 ,4,cmp61
+স্মৃ,\u09b8 \u09cd \u09ae \u09c3 ,4,cmp62
+ক্ক,\u0995 \u09cd \u0995 ,3,cmp63
+ক্ট,\u0995 \u09cd \u099f ,3,cmp64
+ক্ত,\u0995 \u09cd \u09a4 ,3,cmp65
+ক্র,\u0995 \u09cd \u09b0 ,3,cmp66
+ক্ল,\u0995 \u09cd \u09b2 ,3,cmp67
+ক্ষ,\u0995 \u09cd \u09b7 ,3,cmp68
+ক্স,\u0995 \u09cd \u09b8 ,3,cmp69
+খুঁ,\u0996 \u09c1 \u0981 ,3,cmp70
+খ্র,\u0996 \u09cd \u09b0 ,3,cmp71
+গ্ধ,\u0997 \u09cd \u09a7 ,3,cmp72
+গ্ন,\u0997 \u09cd \u09a8 ,3,cmp73
+গ্র,\u0997 \u09cd \u09b0 ,3,cmp74
+গ্ল,\u0997 \u09cd \u09b2 ,3,cmp75
+ঘ্ন,\u0998 \u09cd \u09a8 ,3,cmp76
+ঘ্র,\u0998 \u09cd \u09b0 ,3,cmp77
+ঙ্ক,\u0999 \u09cd \u0995 ,3,cmp78
+ঙ্খ,\u0999 \u09cd \u0996 ,3,cmp79
+ঙ্গ,\u0999 \u09cd \u0997 ,3,cmp80
+ঙ্ঘ,\u0999 \u09cd \u0998 ,3,cmp81
+ঙ্র,\u0999 \u09cd \u09b0 ,3,cmp82
+চ্চ,\u099a \u09cd \u099a ,3,cmp83
+চ্ছ,\u099a \u09cd \u099b ,3,cmp84
+চ্র,\u099a \u09cd \u09b0 ,3,cmp85
+ছ্র,\u099b \u09cd \u09b0 ,3,cmp86
+জ্জ,\u099c \u09cd \u099c ,3,cmp87
+জ্ঞ,\u099c \u09cd \u099e ,3,cmp88
+জ্ব,\u099c \u09cd \u09ac ,3,cmp89
+জ্র,\u099c \u09cd \u09b0 ,3,cmp90
+ঞ্চ,\u099e \u09cd \u099a ,3,cmp91
+ঞ্ছ,\u099e \u09cd \u099b ,3,cmp92
+ঞ্জ,\u099e \u09cd \u099c ,3,cmp93
+ট্ট,\u099f \u09cd \u099f ,3,cmp94
+ট্র,\u099f \u09cd \u09b0 ,3,cmp95
+ঠ্র,\u09a0 \u09cd \u09b0 ,3,cmp96
+ড্ড,\u09a1 \u09cd \u09a1 ,3,cmp97
+ড্র,\u09a1 \u09cd \u09b0 ,3,cmp98
+ঢ্র,\u09a2 \u09cd \u09b0 ,3,cmp99
+ণ্ট,\u09a3 \u09cd \u099f ,3,cmp100
+ণ্ঠ,\u09a3 \u09cd \u09a0 ,3,cmp101
+ণ্ড,\u09a3 \u09cd \u09a1 ,3,cmp102
+ত্ত,\u09a4 \u09cd \u09a4 ,3,cmp103
+ত্থ,\u09a4 \u09cd \u09a5 ,3,cmp104
+ত্ন,\u09a4 \u09cd \u09a8 ,3,cmp105
+ত্ব,\u09a4 \u09cd \u09ac ,3,cmp106
+ত্ম,\u09a4 \u09cd \u09ae ,3,cmp107
+ত্র,\u09a4 \u09cd \u09b0 ,3,cmp108
+থ্র,\u09a5 \u09cd \u09b0 ,3,cmp109
+দ্দ,\u09a6 \u09cd \u09a6 ,3,cmp110
+দ্ধ,\u09a6 \u09cd \u09a7 ,3,cmp111
+দ্ব,\u09a6 \u09cd \u09ac ,3,cmp112
+দ্ভ,\u09a6 \u09cd \u09ad ,3,cmp113
+দ্র,\u09a6 \u09cd \u09b0 ,3,cmp114
+ধ্ব,\u09a7 \u09cd \u09ac ,3,cmp115
+ধ্ম,\u09a7 \u09cd \u09ae ,3,cmp116
+ধ্র,\u09a7 \u09cd \u09b0 ,3,cmp117
+ন্ট,\u09a8 \u09cd \u099f ,3,cmp118
+ন্ঠ,\u09a8 \u09cd \u09a0 ,3,cmp119
+ন্ড,\u09a8 \u09cd \u09a1 ,3,cmp120
+ন্ত,\u09a8 \u09cd \u09a4 ,3,cmp121
+ন্থ,\u09a8 \u09cd \u09a5 ,3,cmp122
+ন্দ,\u09a8 \u09cd \u09a6 ,3,cmp123
+ন্ধ,\u09a8 \u09cd \u09a7 ,3,cmp124
+ন্ন,\u09a8 \u09cd \u09a8 ,3,cmp125
+ন্ব,\u09a8 \u09cd \u09ac ,3,cmp126
+ন্ম,\u09a8 \u09cd \u09ae ,3,cmp127
+ন্স,\u09a8 \u09cd \u09b8 ,3,cmp128
+প্ট,\u09aa \u09cd \u099f ,3,cmp129
+প্ত,\u09aa \u09cd \u09a4 ,3,cmp130
+প্ন,\u09aa \u09cd \u09a8 ,3,cmp131
+প্প,\u09aa \u09cd \u09aa ,3,cmp132
+প্র,\u09aa \u09cd \u09b0 ,3,cmp133
+প্ল,\u09aa \u09cd \u09b2 ,3,cmp134
+ফ্র,\u09ab \u09cd \u09b0 ,3,cmp135
+ফ্ল,\u09ab \u09cd \u09b2 ,3,cmp136
+ব্জ,\u09ac \u09cd \u099c ,3,cmp137
+ব্দ,\u09ac \u09cd \u09a6 ,3,cmp138
+ব্ধ,\u09ac \u09cd \u09a7 ,3,cmp139
+ব্ব,\u09ac \u09cd \u09ac ,3,cmp140
+ব্র,\u09ac \u09cd \u09b0 ,3,cmp141
+ব্ল,\u09ac \u09cd \u09b2 ,3,cmp142
+ভ্র,\u09ad \u09cd \u09b0 ,3,cmp143
+ম্ন,\u09ae \u09cd \u09a8 ,3,cmp144
+ম্প,\u09ae \u09cd \u09aa ,3,cmp145
+ম্ব,\u09ae \u09cd \u09ac ,3,cmp146
+ম্ভ,\u09ae \u09cd \u09ad ,3,cmp147
+ম্ম,\u09ae \u09cd \u09ae ,3,cmp148
+ম্র,\u09ae \u09cd \u09b0 ,3,cmp149
+র্ক,\u09b0 \u09cd \u0995 ,3,cmp150
+র্খ,\u09b0 \u09cd \u0996 ,3,cmp151
+র্গ,\u09b0 \u09cd \u0997 ,3,cmp152
+র্ঘ,\u09b0 \u09cd \u0998 ,3,cmp153
+র্চ,\u09b0 \u09cd \u099a ,3,cmp154
+র্ছ,\u09b0 \u09cd \u099b ,3,cmp155
+র্জ,\u09b0 \u09cd \u099c ,3,cmp156
+র্ঝ,\u09b0 \u09cd \u099d ,3,cmp157
+র্ট,\u09b0 \u09cd \u099f ,3,cmp158
+র্ঠ,\u09b0 \u09cd \u09a0 ,3,cmp159
+র্ড,\u09b0 \u09cd \u09a1 ,3,cmp160
+র্ঢ,\u09b0 \u09cd \u09a2 ,3,cmp161
+র্ণ,\u09b0 \u09cd \u09a3 ,3,cmp162
+র্ত,\u09b0 \u09cd \u09a4 ,3,cmp163
+র্ৎ,\u09b0 \u09cd \u09ce ,3,cmp164
+র্থ,\u09b0 \u09cd \u09a5 ,3,cmp165
+র্দ,\u09b0 \u09cd \u09a6 ,3,cmp166
+র্ধ,\u09b0 \u09cd \u09a7 ,3,cmp167
+র্ন,\u09b0 \u09cd \u09a8 ,3,cmp168
+র্প,\u09b0 \u09cd \u09aa ,3,cmp169
+র্ফ,\u09b0 \u09cd \u09ab ,3,cmp170
+র্ব,\u09b0 \u09cd \u09ac ,3,cmp171
+র্ভ,\u09b0 \u09cd \u09ad ,3,cmp172
+র্ম,\u09b0 \u09cd \u09ae ,3,cmp173
+র্য,\u09b0 \u09cd \u09af ,3,cmp174
+র্র,\u09b0 \u09cd \u09b0 ,3,cmp175
+র্ল,\u09b0 \u09cd \u09b2 ,3,cmp176
+র্শ,\u09b0 \u09cd \u09b6 ,3,cmp177
+র্ষ,\u09b0 \u09cd \u09b7 ,3,cmp178
+র্স,\u09b0 \u09cd \u09b8 ,3,cmp179
+র্হ,\u09b0 \u09cd \u09b9 ,3,cmp180
+ল্ক,\u09b2 \u09cd \u0995 ,3,cmp181
+ল্ট,\u09b2 \u09cd \u099f ,3,cmp182
+ল্প,\u09b2 \u09cd \u09aa ,3,cmp183
+ল্ল,\u09b2 \u09cd \u09b2 ,3,cmp184
+শ্চ,\u09b6 \u09cd \u099a ,3,cmp185
+শ্ত,\u09b6 \u09cd \u09a4 ,3,cmp186
+শ্ন,\u09b6 \u09cd \u09a8 ,3,cmp187
+শ্ব,\u09b6 \u09cd \u09ac ,3,cmp188
+শ্ম,\u09b6 \u09cd \u09ae ,3,cmp189
+শ্র,\u09b6 \u09cd \u09b0 ,3,cmp190
+শ্ল,\u09b6 \u09cd \u09b2 ,3,cmp191
+ষ্ক,\u09b7 \u09cd \u0995 ,3,cmp192
+ষ্ট,\u09b7 \u09cd \u099f ,3,cmp193
+ষ্ঠ,\u09b7 \u09cd \u09a0 ,3,cmp194
+ষ্ণ,\u09b7 \u09cd \u09a3 ,3,cmp195
+ষ্প,\u09b7 \u09cd \u09aa ,3,cmp196
+ষ্র,\u09b7 \u09cd \u09b0 ,3,cmp197
+স্ক,\u09b8 \u09cd \u0995 ,3,cmp198
+স্ট,\u09b8 \u09cd \u099f ,3,cmp199
+স্ত,\u09b8 \u09cd \u09a4 ,3,cmp200
+স্থ,\u09b8 \u09cd \u09a5 ,3,cmp201
+স্ন,\u09b8 \u09cd \u09a8 ,3,cmp202
+স্প,\u09b8 \u09cd \u09aa ,3,cmp203
+স্ফ,\u09b8 \u09cd \u09ab ,3,cmp204
+স্ব,\u09b8 \u09cd \u09ac ,3,cmp205
+স্ম,\u09b8 \u09cd \u09ae ,3,cmp206
+স্র,\u09b8 \u09cd \u09b0 ,3,cmp207
+স্ল,\u09b8 \u09cd \u09b2 ,3,cmp208
+হ্ন,\u09b9 \u09cd \u09a8 ,3,cmp209
+হ্ব,\u09b9 \u09cd \u09ac ,3,cmp210
+হ্ম,\u09b9 \u09cd \u09ae ,3,cmp211
+হ্র,\u09b9 \u09cd \u09b0 ,3,cmp212
+আঁ,\u0986 \u0981 ,2,cmp213
+কঁ,\u0995 \u0981 ,2,cmp214
+কু,\u0995 \u09c1 ,2,cmp215
+কূ,\u0995 \u09c2 ,2,cmp216
+খঁ,\u0996 \u0981 ,2,cmp217
+খু,\u0996 \u09c1 ,2,cmp218
+খূ,\u0996 \u09c2 ,2,cmp219
+গঁ,\u0997 \u0981 ,2,cmp220
+গু,\u0997 \u09c1 ,2,cmp221
+গূ,\u0997 \u09c2 ,2,cmp222
+গৃ,\u0997 \u09c3 ,2,cmp223
+ঘঁ,\u0998 \u0981 ,2,cmp224
+ঘু,\u0998 \u09c1 ,2,cmp225
+ঘূ,\u0998 \u09c2 ,2,cmp226
+চঁ,\u099a \u0981 ,2,cmp227
+চু,\u099a \u09c1 ,2,cmp228
+চূ,\u099a \u09c2 ,2,cmp229
+ছঁ,\u099b \u0981 ,2,cmp230
+ছু,\u099b \u09c1 ,2,cmp231
+ছূ,\u099b \u09c2 ,2,cmp232
+জঁ,\u099c \u0981 ,2,cmp233
+জু,\u099c \u09c1 ,2,cmp234
+জূ,\u099c \u09c2 ,2,cmp235
+ঝঁ,\u099d \u0981 ,2,cmp236
+ঝু,\u099d \u09c1 ,2,cmp237
+ঝূ,\u099d \u09c2 ,2,cmp238
+টঁ,\u099f \u0981 ,2,cmp239
+টু,\u099f \u09c1 ,2,cmp240
+টূ,\u099f \u09c2 ,2,cmp241
+ঠঁ,\u09a0 \u0981 ,2,cmp242
+ঠু,\u09a0 \u09c1 ,2,cmp243
+ঠূ,\u09a0 \u09c2 ,2,cmp244
+ডঁ,\u09a1 \u0981 ,2,cmp245
+ডু,\u09a1 \u09c1 ,2,cmp246
+ডূ,\u09a1 \u09c2 ,2,cmp247
+ঢঁ,\u09a2 \u0981 ,2,cmp248
+ঢু,\u09a2 \u09c1 ,2,cmp249
+ঢূ,\u09a2 \u09c2 ,2,cmp250
+ণঁ,\u09a3 \u0981 ,2,cmp251
+ণু,\u09a3 \u09c1 ,2,cmp252
+ণূ,\u09a3 \u09c2 ,2,cmp253
+তঁ,\u09a4 \u0981 ,2,cmp254
+তু,\u09a4 \u09c1 ,2,cmp255
+তূ,\u09a4 \u09c2 ,2,cmp256
+থঁ,\u09a5 \u0981 ,2,cmp257
+থু,\u09a5 \u09c1 ,2,cmp258
+থূ,\u09a5 \u09c2 ,2,cmp259
+দঁ,\u09a6 \u0981 ,2,cmp260
+দু,\u09a6 \u09c1 ,2,cmp261
+দূ,\u09a6 \u09c2 ,2,cmp262
+ধঁ,\u09a7 \u0981 ,2,cmp263
+ধু,\u09a7 \u09c1 ,2,cmp264
+ধূ,\u09a7 \u09c2 ,2,cmp265
+নঁ,\u09a8 \u0981 ,2,cmp266
+নু,\u09a8 \u09c1 ,2,cmp267
+নূ,\u09a8 \u09c2 ,2,cmp268
+পঁ,\u09aa \u0981 ,2,cmp269
+পু,\u09aa \u09c1 ,2,cmp270
+পূ,\u09aa \u09c2 ,2,cmp271
+ফঁ,\u09ab \u0981 ,2,cmp272
+ফু,\u09ab \u09c1 ,2,cmp273
+ফূ,\u09ab \u09c2 ,2,cmp274
+বঁ,\u09ac \u0981 ,2,cmp275
+বু,\u09ac \u09c1 ,2,cmp276
+বূ,\u09ac \u09c2 ,2,cmp277
+ভঁ,\u09ad \u0981 ,2,cmp278
+ভু,\u09ad \u09c1 ,2,cmp279
+ভূ,\u09ad \u09c2 ,2,cmp280
+মঁ,\u09ae \u0981 ,2,cmp281
+মু,\u09ae \u09c1 ,2,cmp282
+মূ,\u09ae \u09c2 ,2,cmp283
+যঁ,\u09af \u0981 ,2,cmp284
+যু,\u09af \u09c1 ,2,cmp285
+যূ,\u09af \u09c2 ,2,cmp286
+রঁ,\u09b0 \u0981 ,2,cmp287
+রু,\u09b0 \u09c1 ,2,cmp288
+রূ,\u09b0 \u09c2 ,2,cmp289
+লঁ,\u09b2 \u0981 ,2,cmp290
+লু,\u09b2 \u09c1 ,2,cmp291
+লূ,\u09b2 \u09c2 ,2,cmp292
+শঁ,\u09b6 \u0981 ,2,cmp293
+শু,\u09b6 \u09c1 ,2,cmp294
+শূ,\u09b6 \u09c2 ,2,cmp295
+ষঁ,\u09b7 \u0981 ,2,cmp296
+ষু,\u09b7 \u09c1 ,2,cmp297
+ষূ,\u09b7 \u09c2 ,2,cmp298
+সঁ,\u09b8 \u0981 ,2,cmp299
+সু,\u09b8 \u09c1 ,2,cmp300
+সূ,\u09b8 \u09c2 ,2,cmp301
+হঁ,\u09b9 \u0981 ,2,cmp302
+হু,\u09b9 \u09c1 ,2,cmp303
+হূ,\u09b9 \u09c2 ,2,cmp304
+হৃ,\u09b9 \u09c3 ,2,cmp305
