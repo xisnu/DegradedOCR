@@ -1,5 +1,5 @@
 # DegradedOCR
-A CNN BLSTM CTC based implementation of Bangla Degraded OCR line recognition. This work is accepted in [ICPR 2018, 24th International Conference on Pattern Recognition](http://www.icpr2018.org/)
+A CNN BLSTM CTC based implementation of Bangla Degraded OCR line recognition. This work is accepted as a conference paper in [ICPR 2018, 24th International Conference on Pattern Recognition](http://www.icpr2018.org/)
 ## Requirements
 This model is implemented using
 1. Python 2.7 (maintain this version)
