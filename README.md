@@ -12,6 +12,6 @@ This model is implemented using
 * A CNN BLSTM CTC based network is implemented as in Figure:
 ![Model][model]
 
-[model]: https://github.com/xisnu/DegradedOCR/blob/master/inception-ctc.jpg "Architecture"
+[model]: https://github.com/xisnu/DegradedOCR/blob/master/Inception-ctc.jpg "Architecture"
 * The network is given in **Hybrid_Model_Degraded.py**. Run the ```main()``` method as specified in comments.
 * In ```Predict``` mode the network will genrate a file (**Predicted.txt**) containing actual annotation and network predicted strings.
