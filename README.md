@@ -1,5 +1,9 @@
 # OCR for Degraded Bangla Documents
 A CNN BLSTM CTC based implementation of Bangla Degraded OCR line recognition. This work is accepted as a conference paper in [ICPR 2018, 24th International Conference on Pattern Recognition](http://www.icpr2018.org/)
+## Features
++ Takes Grayscale / Binarized line image
++ No Feature Extraction is required
++ Generates Unicode output against each line image
 ## Requirements
 This model is implemented using
 1. Python 2.7 (maintain this version)
