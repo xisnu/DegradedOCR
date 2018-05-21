@@ -9,9 +9,9 @@ This model is implemented using
 5. Numpy
 ## Usage Instruction
 * Run the function ```makeh5_from_dir()``` from **PrepareDataset.py**. This will create a HDF file against image folder as specified e.g. **Data/Sample/Train/Line_Images"**. Run this for **Train** and **Test** directory seperatley. You need 2 HDF files.
-* A CNN BLSTM CTC based network is implemented as in 
-Reference-style: 
+* A CNN BLSTM CTC based network is implemented as in Figure:
 ![Model][model]
-[model]: inception-ctc.jpg "Architecture"
+
+[model]: https://github.com/xisnu/DegradedOCR/blob/master/inception-ctc.jpg "Architecture"
 * The network is given in **Hybrid_Model_Degraded.py**. Run the ```main()``` method as specified in comments.
 * In ```Predict``` mode the network will genrate a file (**Predicted.txt**) containing actual annotation and network predicted strings.
