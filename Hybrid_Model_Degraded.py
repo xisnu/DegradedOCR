@@ -67,13 +67,13 @@ class CNNBLSTM:
             print("First Inception Block = ", shape)
 
 
-            mp_1 = tf.nn.max_pool(nl_1, ksize=[1, 1, 7, 1], strides=[1, 1, self.pool_stride[0], 1],padding='SAME')  # batchsize,1,maxsteps,filter1
+            mp_1 = tf.nn.max_pool(merge_conv1, ksize=[1, 1, 7, 1], strides=[1, 1, self.pool_stride[0], 1],padding='SAME')  # batchsize,1,maxsteps,filter1
             shape=self.get_layer_shape(mp_1)
             print("First Conv Block = ",shape)
             # ---------------1st Conv MP Block Ends----------------------#
 
             # ---------------2nd Block Starts---------------------#
-            f2 = [1, self.filterwidth, self.nb_filters[0], self.nb_filters[1]]
+            f2 = [1, self.filterwidth, 144, self.nb_filters[1]] # The in_channel value is hardcoded, but can easily be computed using tf.shape()
             W2 = tf.Variable(tf.truncated_normal(f2, stddev=0.1), name="W2")
             b2 = tf.Variable(tf.constant(0.1, shape=[self.nb_filters[1]]), name="b2")
             conv_2 = tf.nn.conv2d(mp_1, W2, strides=[1, 1, self.conv_stride[1], 1], padding='SAME')
